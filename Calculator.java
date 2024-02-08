@@ -14,12 +14,16 @@ public class Calculator {
         int differenceResult = subtract(a, b);
         int productResult = multiply(a, b);
         int quotientResult = divide(a, b);
+        int square=square(a);
+        int cube=cube(a);
 
         // Display results
         System.out.println("Sum: " + sumResult);
         System.out.println("Difference: " + differenceResult);
         System.out.println("Product: " + productResult);
         System.out.println("Quotient: " + quotientResult);
+        System.out.println("Square: " + square);
+        System.out.println("Cube: " + cube);
 
     
     }
@@ -50,5 +54,11 @@ public class Calculator {
     // Function for division
     public static int divide(int a, int b) {
         return a / b;
+    }
+    public static int square(int a) {
+        return a*a;
+    }
+    public static int cube(int a) {
+        return a*a*a;
     }
 }
