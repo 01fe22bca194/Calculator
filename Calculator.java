@@ -7,7 +7,7 @@
  */
 public class Calculator {
     public static void main(String[] args) {
-        int a=10;
+        int a=5;
         int b=5;
         // Perform arithmetic operations
         int sumResult = add(a, b);
